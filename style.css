@@ -31,6 +31,7 @@ color:red;
     align-items: center;
     height: auto;
     padding: 25px 25px;
+    width: 100%;
 }
 .header h2{
     font-size: 150px;
@@ -86,6 +87,7 @@ color:red;
 .product img{
     width: 260px;
     height: 250px;
+    border-radius: 3%;
 }
 .details{
     display: flex;
@@ -162,14 +164,15 @@ color:red;
 .boxer{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 footer{
+    display: inline-block;
     background-color: black;
-    width: auto;
-    height: 150px;
+    width: 280%;
+    height: auto;
     margin-top: 22px;
     color: white;
 }
@@ -192,4 +195,62 @@ footer a:hover{
 text-decoration: underline;
 transition: 1s;
 text-shadow: 5px 9px 5px white;
+}
+
+@media screen and (max-width: 2436px) {
+    body{
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+    }
+}
+
+@media screen  and (max-width: 414px){
+    body{
+        width: 110%;
+    }
+    .header{
+        width: 115%;
+    }
+    .main{
+        width: 20%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    body{
+        width: 500px;
+        height: auto;
+    }
+    .header{
+        width: 500px;
+    }
+    .main{
+        width: 500px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .header p{
+        font-size: 16px;
+    }
+}
+
+@media (max-height:667px ) and (max-width: 375px) {
+    body{
+        width: auto;
+        height: auto;
+    }
+    .header{
+        width: auto;
+    }
+    .main{
+        width: auto;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .header p{
+        font-size: 16px;
+    }
 }
