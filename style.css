@@ -196,7 +196,15 @@ text-decoration: underline;
 transition: 1s;
 text-shadow: 5px 9px 5px white;
 }
-
+.ester{
+    position: absolute;
+    font-size: 20px;
+    bottom: 20%;
+    color: white;
+    opacity: 0.1;
+    cursor: url(cursor.cur), auto;
+}
+/*
 @media screen and (max-width: 2436px) {
     body{
         width: 100%;
@@ -275,4 +283,35 @@ text-shadow: 5px 9px 5px white;
 
 #shiejee{
     width: 65%;
+}
+*/
+@media screen and (max-width: 500px){
+    body{
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+    }
+    .header{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+        margin: 1%;
+        margin-top: 10px;
+    }
+    .header p{
+        font-size: 16px;
+    }
+    .product img{
+        width: 100%;
+        margin-right: 55px;
+    }
+    .ester{
+        position: absolute;
+        font-size: 20px;
+        bottom: 20%;
+        color: white;
+        opacity: 0.1;
+        cursor: url(cursor.cur), auto;
+    }
 }
