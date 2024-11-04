@@ -208,7 +208,7 @@ text-shadow: 5px 9px 5px white;
 
 @media screen and (max-width: 2400px) {
     body{
-        width: 100%;
+        width: 100;
     }
     .header{
         width: 100%;
@@ -271,4 +271,8 @@ text-shadow: 5px 9px 5px white;
     color: white;
     opacity: 0.1;
     cursor: url(cursor.cur), auto;
+}
+
+#shiejee{
+    width: 65%;
 }
